@@ -31,5 +31,5 @@ apt_repository 'gnugk-precise' do
   action :add
 end
 
-package 'ngcp-gnugk'
+package 'gnugk'
 
