@@ -31,5 +31,7 @@ apt_repository 'gnugk-precise' do
   action :add
 end
 
-package 'gnugk'
+package 'gnugk' do
+  version '3.5.0-cvs201309290315'
+end
 
